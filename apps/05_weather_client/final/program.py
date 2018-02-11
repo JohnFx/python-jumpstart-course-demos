@@ -47,7 +47,6 @@ def get_html_from_web(zipcode):
 
     return response.text
 
-
 def get_weather_from_html(html):
     # cityCss = '.region-content-header h1'
     # weatherScaleCss = '.wu-unit-temperature .wu-label'

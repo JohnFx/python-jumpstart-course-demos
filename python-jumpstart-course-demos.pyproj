@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{188226e2-1129-496c-9f92-8e1ef4ee7921}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>apps\01_hello_world\final\program.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="apps\01_hello_world\you_try\app-1-screenshot.png" />
+    <Content Include="apps\02-guess-number-app\you_try\app-2-screenshot.png" />
+    <Content Include="apps\03_birthday\you_try\app-3-screenshot.png" />
+    <Content Include="apps\04_journal\final\journals\placeholder.txt" />
+    <Content Include="apps\04_journal\you_try\app-4-screenshot.png" />
+    <Content Include="apps\05_weather_client\you_try\app-5-screenshot.png" />
+    <Content Include="apps\06_lolcat_factory\you_try\app-6-screenshot.png" />
+    <Content Include="apps\07_wizard_battle\you_try\app-7-screenshot.png" />
+    <Content Include="apps\08_file_searcher\you_try\app-8-screenshot.png" />
+    <Content Include="apps\09_real_estate_analyzer\you_try\app-9-screenshot.png" />
+    <Content Include="apps\10_movie_search\you_try\app-10-screenshot.png" />
+    <Content Include="readme_resources\video_play.png" />
+    <Content Include="transcripts\txt\00_introduction\1.txt" />
+    <Content Include="transcripts\txt\00_introduction\2.txt" />
+    <Content Include="transcripts\txt\00_introduction\3.txt" />
+    <Content Include="transcripts\txt\00_introduction\4.txt" />
+    <Content Include="transcripts\txt\00_introduction\5.txt" />
+    <Content Include="transcripts\txt\00_introduction\6.txt" />
+    <Content Include="transcripts\txt\01_app\1.txt" />
+    <Content Include="transcripts\txt\01_app\2.txt" />
+    <Content Include="transcripts\txt\01_app\3.txt" />
+    <Content Include="transcripts\txt\01_app\4.txt" />
+    <Content Include="transcripts\txt\01_app\5.txt" />
+    <Content Include="transcripts\txt\02_app\1.txt" />
+    <Content Include="transcripts\txt\02_app\2.txt" />
+    <Content Include="transcripts\txt\02_app\3.txt" />
+    <Content Include="transcripts\txt\02_app\4.txt" />
+    <Content Include="transcripts\txt\02_app\5.txt" />
+    <Content Include="transcripts\txt\02_app\6.txt" />
+    <Content Include="transcripts\txt\03_app\1.txt" />
+    <Content Include="transcripts\txt\03_app\2.txt" />
+    <Content Include="transcripts\txt\03_app\3.txt" />
+    <Content Include="transcripts\txt\03_app\4.txt" />
+    <Content Include="transcripts\txt\03_app\5.txt" />
+    <Content Include="transcripts\txt\04_app\1.txt" />
+    <Content Include="transcripts\txt\04_app\10.txt" />
+    <Content Include="transcripts\txt\04_app\11.txt" />
+    <Content Include="transcripts\txt\04_app\12.txt" />
+    <Content Include="transcripts\txt\04_app\13.txt" />
+    <Content Include="transcripts\txt\04_app\14.txt" />
+    <Content Include="transcripts\txt\04_app\2.txt" />
+    <Content Include="transcripts\txt\04_app\3.txt" />
+    <Content Include="transcripts\txt\04_app\4.txt" />
+    <Content Include="transcripts\txt\04_app\5.txt" />
+    <Content Include="transcripts\txt\04_app\6.txt" />
+    <Content Include="transcripts\txt\04_app\7.txt" />
+    <Content Include="transcripts\txt\04_app\8.txt" />
+    <Content Include="transcripts\txt\04_app\9.txt" />
+    <Content Include="transcripts\txt\05_app\1.txt" />
+    <Content Include="transcripts\txt\05_app\10.txt" />
+    <Content Include="transcripts\txt\05_app\11.txt" />
+    <Content Include="transcripts\txt\05_app\12.txt" />
+    <Content Include="transcripts\txt\05_app\13.txt" />
+    <Content Include="transcripts\txt\05_app\14.txt" />
+    <Content Include="transcripts\txt\05_app\15.txt" />
+    <Content Include="transcripts\txt\05_app\16.txt" />
+    <Content Include="transcripts\txt\05_app\17.txt" />
+    <Content Include="transcripts\txt\05_app\18.txt" />
+    <Content Include="transcripts\txt\05_app\2.txt" />
+    <Content Include="transcripts\txt\05_app\3.txt" />
+    <Content Include="transcripts\txt\05_app\4.txt" />
+    <Content Include="transcripts\txt\05_app\5.txt" />
+    <Content Include="transcripts\txt\05_app\6.txt" />
+    <Content Include="transcripts\txt\05_app\7.txt" />
+    <Content Include="transcripts\txt\05_app\8.txt" />
+    <Content Include="transcripts\txt\05_app\9.txt" />
+    <Content Include="transcripts\txt\06_app\1.txt" />
+    <Content Include="transcripts\txt\06_app\2.txt" />
+    <Content Include="transcripts\txt\06_app\3.txt" />
+    <Content Include="transcripts\txt\06_app\4.txt" />
+    <Content Include="transcripts\txt\06_app\5.txt" />
+    <Content Include="transcripts\txt\06_app\6.txt" />
+    <Content Include="transcripts\txt\06_app\7.txt" />
+    <Content Include="transcripts\txt\07_app\1.txt" />
+    <Content Include="transcripts\txt\07_app\10.txt" />
+    <Content Include="transcripts\txt\07_app\11.txt" />
+    <Content Include="transcripts\txt\07_app\2.txt" />
+    <Content Include="transcripts\txt\07_app\3.txt" />
+    <Content Include="transcripts\txt\07_app\4.txt" />
+    <Content Include="transcripts\txt\07_app\5.txt" />
+    <Content Include="transcripts\txt\07_app\6.txt" />
+    <Content Include="transcripts\txt\07_app\7.txt" />
+    <Content Include="transcripts\txt\07_app\8.txt" />
+    <Content Include="transcripts\txt\07_app\9.txt" />
+    <Content Include="transcripts\txt\08_app\1.txt" />
+    <Content Include="transcripts\txt\08_app\10.txt" />
+    <Content Include="transcripts\txt\08_app\11.txt" />
+    <Content Include="transcripts\txt\08_app\2.txt" />
+    <Content Include="transcripts\txt\08_app\3.txt" />
+    <Content Include="transcripts\txt\08_app\4.txt" />
+    <Content Include="transcripts\txt\08_app\5.txt" />
+    <Content Include="transcripts\txt\08_app\6.txt" />
+    <Content Include="transcripts\txt\08_app\7.txt" />
+    <Content Include="transcripts\txt\08_app\8.txt" />
+    <Content Include="transcripts\txt\08_app\9.txt" />
+    <Content Include="transcripts\txt\09_app\1.txt" />
+    <Content Include="transcripts\txt\09_app\10.txt" />
+    <Content Include="transcripts\txt\09_app\11.txt" />
+    <Content Include="transcripts\txt\09_app\12.txt" />
+    <Content Include="transcripts\txt\09_app\13.txt" />
+    <Content Include="transcripts\txt\09_app\14.txt" />
+    <Content Include="transcripts\txt\09_app\15.txt" />
+    <Content Include="transcripts\txt\09_app\16.txt" />
+    <Content Include="transcripts\txt\09_app\17.txt" />
+    <Content Include="transcripts\txt\09_app\2.txt" />
+    <Content Include="transcripts\txt\09_app\3.txt" />
+    <Content Include="transcripts\txt\09_app\4.txt" />
+    <Content Include="transcripts\txt\09_app\5.txt" />
+    <Content Include="transcripts\txt\09_app\6.txt" />
+    <Content Include="transcripts\txt\09_app\7.txt" />
+    <Content Include="transcripts\txt\09_app\8.txt" />
+    <Content Include="transcripts\txt\09_app\9.txt" />
+    <Content Include="transcripts\txt\10_app\1.txt" />
+    <Content Include="transcripts\txt\10_app\2.txt" />
+    <Content Include="transcripts\txt\10_app\3.txt" />
+    <Content Include="transcripts\txt\10_app\4.txt" />
+    <Content Include="transcripts\txt\10_app\5.txt" />
+    <Content Include="transcripts\txt\10_app\6.txt" />
+    <Content Include="transcripts\txt\10_app\7.txt" />
+    <Content Include="transcripts\txt\10_app\8.txt" />
+    <Content Include="transcripts\txt\conclusion\1.txt" />
+    <Content Include="transcripts\txt\conclusion\2.txt" />
+    <Content Include="transcripts\txt\conclusion\3.txt" />
+    <Content Include="transcripts\txt\conclusion\4.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="apps\01_hello_world\final\program.py" />
+    <Compile Include="apps\02-guess-number-app\final\program.py" />
+    <Compile Include="apps\03_birthday\final\program.py" />
+    <Compile Include="apps\04_journal\final\journal.py" />
+    <Compile Include="apps\04_journal\final\program.py" />
+    <Compile Include="apps\04_journal\final\program2.py" />
+    <Compile Include="apps\05_weather_client\final\program.py" />
+    <Compile Include="apps\06_lolcat_factory\final\cat_service.py" />
+    <Compile Include="apps\06_lolcat_factory\final\program.py" />
+    <Compile Include="apps\07_wizard_battle\final\actors.py" />
+    <Compile Include="apps\07_wizard_battle\final\program.py" />
+    <Compile Include="apps\08_file_searcher\final\play.py" />
+    <Compile Include="apps\08_file_searcher\final\program.py" />
+    <Compile Include="apps\09_real_estate_analyzer\final\concept_dicts.py" />
+    <Compile Include="apps\09_real_estate_analyzer\final\data_types.py" />
+    <Compile Include="apps\09_real_estate_analyzer\final\program.py" />
+    <Compile Include="apps\09_real_estate_analyzer\final\statistics_standin_for_py2.py" />
+    <Compile Include="apps\10_movie_search\final\movie_svc.py" />
+    <Compile Include="apps\10_movie_search\final\play.py" />
+    <Compile Include="apps\10_movie_search\final\program.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="apps\" />
+    <Folder Include="apps\01_hello_world\" />
+    <Folder Include="apps\01_hello_world\final" />
+    <Folder Include="apps\01_hello_world\you_try" />
+    <Folder Include="apps\02-guess-number-app\" />
+    <Folder Include="apps\02-guess-number-app\final" />
+    <Folder Include="apps\02-guess-number-app\you_try" />
+    <Folder Include="apps\03_birthday\" />
+    <Folder Include="apps\03_birthday\final" />
+    <Folder Include="apps\03_birthday\you_try" />
+    <Folder Include="apps\04_journal\" />
+    <Folder Include="apps\04_journal\final" />
+    <Folder Include="apps\04_journal\final\journals" />
+    <Folder Include="apps\04_journal\you_try" />
+    <Folder Include="apps\05_weather_client\" />
+    <Folder Include="apps\05_weather_client\final" />
+    <Folder Include="apps\05_weather_client\you_try" />
+    <Folder Include="apps\06_lolcat_factory\" />
+    <Folder Include="apps\06_lolcat_factory\final" />
+    <Folder Include="apps\06_lolcat_factory\you_try" />
+    <Folder Include="apps\07_wizard_battle\" />
+    <Folder Include="apps\07_wizard_battle\final" />
+    <Folder Include="apps\07_wizard_battle\you_try" />
+    <Folder Include="apps\08_file_searcher\" />
+    <Folder Include="apps\08_file_searcher\final" />
+    <Folder Include="apps\08_file_searcher\you_try" />
+    <Folder Include="apps\09_real_estate_analyzer\" />
+    <Folder Include="apps\09_real_estate_analyzer\final" />
+    <Folder Include="apps\09_real_estate_analyzer\you_try" />
+    <Folder Include="apps\10_movie_search\" />
+    <Folder Include="apps\10_movie_search\final" />
+    <Folder Include="apps\10_movie_search\you_try" />
+    <Folder Include="readme_resources" />
+    <Folder Include="transcripts\" />
+    <Folder Include="transcripts\txt\" />
+    <Folder Include="transcripts\txt\00_introduction" />
+    <Folder Include="transcripts\txt\01_app" />
+    <Folder Include="transcripts\txt\02_app" />
+    <Folder Include="transcripts\txt\03_app" />
+    <Folder Include="transcripts\txt\04_app" />
+    <Folder Include="transcripts\txt\05_app" />
+    <Folder Include="transcripts\txt\06_app" />
+    <Folder Include="transcripts\txt\07_app" />
+    <Folder Include="transcripts\txt\08_app" />
+    <Folder Include="transcripts\txt\09_app" />
+    <Folder Include="transcripts\txt\10_app" />
+    <Folder Include="transcripts\txt\conclusion" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56f40c0e-25d4-4cb6-80d3-7e3c56ef7296}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>06_lolcat_factory\you_try\program.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{49f11fc5-8d9e-4484-988b-9bca6952a09c}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="01_hello_world\final\program.py" />
+    <Compile Include="01_hello_world\you_try\Program.py" />
+    <Compile Include="02-guess-number-app\final\program.py" />
+    <Compile Include="02-guess-number-app\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="03_birthday\final\program.py" />
+    <Compile Include="03_birthday\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="04_journal\final\journal.py" />
+    <Compile Include="04_journal\final\program.py" />
+    <Compile Include="04_journal\final\program2.py" />
+    <Compile Include="04_journal\you_try\journal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="04_journal\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05_weather_client\final\program.py" />
+    <Compile Include="05_weather_client\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06_lolcat_factory\final\cat_service.py" />
+    <Compile Include="06_lolcat_factory\final\program.py" />
+    <Compile Include="07_wizard_battle\you_try\actors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06_lolcat_factory\you_try\cat_service.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06_lolcat_factory\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="07_wizard_battle\final\actors.py" />
+    <Compile Include="07_wizard_battle\final\program.py" />
+    <Compile Include="07_wizard_battle\you_try\program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_file_searcher\final\play.py" />
+    <Compile Include="08_file_searcher\final\program.py" />
+    <Compile Include="09_real_estate_analyzer\final\concept_dicts.py" />
+    <Compile Include="09_real_estate_analyzer\final\data_types.py" />
+    <Compile Include="09_real_estate_analyzer\final\program.py" />
+    <Compile Include="09_real_estate_analyzer\final\statistics_standin_for_py2.py" />
+    <Compile Include="10_movie_search\final\movie_svc.py" />
+    <Compile Include="10_movie_search\final\play.py" />
+    <Compile Include="10_movie_search\final\program.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01_hello_world\you_try\app-1-screenshot.png" />
+    <Content Include="02-guess-number-app\you_try\app-2-screenshot.png" />
+    <Content Include="03_birthday\you_try\app-3-screenshot.png" />
+    <Content Include="04_journal\final\journals\placeholder.txt" />
+    <Content Include="04_journal\you_try\app-4-screenshot.png" />
+    <Content Include="05_weather_client\you_try\app-5-screenshot.png" />
+    <Content Include="06_lolcat_factory\you_try\app-6-screenshot.png" />
+    <Content Include="07_wizard_battle\you_try\app-7-screenshot.png" />
+    <Content Include="08_file_searcher\you_try\app-8-screenshot.png" />
+    <Content Include="09_real_estate_analyzer\you_try\app-9-screenshot.png" />
+    <Content Include="10_movie_search\you_try\app-10-screenshot.png" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01_hello_world\" />
+    <Folder Include="01_hello_world\final" />
+    <Folder Include="01_hello_world\you_try" />
+    <Folder Include="02-guess-number-app\" />
+    <Folder Include="02-guess-number-app\final" />
+    <Folder Include="02-guess-number-app\you_try" />
+    <Folder Include="03_birthday\" />
+    <Folder Include="03_birthday\final" />
+    <Folder Include="03_birthday\you_try" />
+    <Folder Include="04_journal\" />
+    <Folder Include="04_journal\final" />
+    <Folder Include="04_journal\final\journals" />
+    <Folder Include="04_journal\you_try" />
+    <Folder Include="04_journal\you_try\journals\" />
+    <Folder Include="05_weather_client\" />
+    <Folder Include="05_weather_client\final" />
+    <Folder Include="05_weather_client\you_try" />
+    <Folder Include="06_lolcat_factory\" />
+    <Folder Include="06_lolcat_factory\final" />
+    <Folder Include="06_lolcat_factory\you_try" />
+    <Folder Include="06_lolcat_factory\you_try\cat_pictures\" />
+    <Folder Include="07_wizard_battle\" />
+    <Folder Include="07_wizard_battle\final" />
+    <Folder Include="07_wizard_battle\you_try" />
+    <Folder Include="08_file_searcher\" />
+    <Folder Include="08_file_searcher\final" />
+    <Folder Include="08_file_searcher\you_try" />
+    <Folder Include="09_real_estate_analyzer\" />
+    <Folder Include="09_real_estate_analyzer\final" />
+    <Folder Include="09_real_estate_analyzer\you_try" />
+    <Folder Include="10_movie_search\" />
+    <Folder Include="10_movie_search\final" />
+    <Folder Include="10_movie_search\you_try" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{49f11fc5-8d9e-4484-988b-9bca6952a09c}\3.5" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
