@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{56f40c0e-25d4-4cb6-80d3-7e3c56ef7296}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>06_lolcat_factory\you_try\program.py</StartupFile>
+    <StartupFile>08_file_searcher\you_try\program.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -62,6 +62,7 @@
     </Compile>
     <Compile Include="08_file_searcher\final\play.py" />
     <Compile Include="08_file_searcher\final\program.py" />
+    <Compile Include="08_file_searcher\you_try\program.py" />
     <Compile Include="09_real_estate_analyzer\final\concept_dicts.py" />
     <Compile Include="09_real_estate_analyzer\final\data_types.py" />
     <Compile Include="09_real_estate_analyzer\final\program.py" />

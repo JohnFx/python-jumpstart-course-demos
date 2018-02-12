@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Visual Studio Local settings
+*.suo
+
 # JetBrains
 *.idea
 
@@ -66,3 +69,6 @@ target/
 .DS_Store
 .idea
 .env
+
+#project specific
+apps/06_lolcat_factory/you_try/cat_pictures/
